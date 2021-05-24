@@ -5,21 +5,23 @@
     <meta
       name="viewport"
       content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
-      >
+    >
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>HTML Form</title>
     <link rel="stylesheet" href="./style.css">
   </head>
   <body>
-    <h1 class="visually-hidden">HTML Form</h1>
-    <script type="text/javascript" src="./main.js"></script>
+    <script type="text/javascript"
+      src="./main.js">
+    </script>
     <form action="https://mate-academy-form-lesson.herokuapp.com/create-application"
     method="POST"
     onsubmit="onSubmit()">
       <fieldset  class="fieldset">
         <legend>Personal information</legend>
         <div class="form_field">
-          <label for="Surname">
+          <label
+            for="Surname">
             Surname:
           </label>
           <input type="text"
@@ -51,24 +53,36 @@
           </label>
         </div>
         <div class="form_field last">
-          <label for="terms-of-conditions">I accept the form of the agreement</label>
-          <input type="checkbox" id="terms-of-conditions"
+          <label for="terms-of-conditions">
+            I accept the form of the agreement
+          </label>
+          <input
+          type="checkbox"
+          id="terms-of-conditions"
           name="conditions">
         </div>
       </fieldset>
       <fieldset class="fieldset">
         <legend>Registartion</legend>
         <div class="form_field">
-          <label for="E-mail">E-mail:</label>
-          <input type="email"
+          <label
+            for="E-mail">
+            E-mail:
+          </label>
+          <input
+          type="email"
           id="E-mail"
           name="email"
           required
           placeholder="email@example.com">
         </div>
         <div class="form_field last">
-          <label for="Password">Password</label>
-          <input type="password"
+          <label
+            for="Password">
+            Password
+          </label>
+          <input
+            type="password"
             id="Password"
             name="password"
             maxlength="7"
@@ -81,9 +95,9 @@
           Do you love cats?
           <label for="caty">
             <input type="radio"
-           name="cat"
-           id="caty"
-           value="y">
+              name="cat"
+              id="caty"
+              value="y">
               Yes
           </label>
           <label for="catn">
@@ -94,13 +108,17 @@
           </label>
         </div>
         <div class="form_field">
-          <label for="color">What is your favorite color?</label>
+          <label for="color">
+            What is your favorite color?
+          </label>
           <input type="color"
             name="color"
             id="color">
         </div>
         <div class="form_field">
-          <label for="bed">What time do you go to bed?</label>
+          <label for="bed">
+            What time do you go to bed?
+          </label>
           <input type="time"
             id="bed"
             name="time_to_bed">
@@ -120,8 +138,9 @@
         <div class="form_field last">
           <label for="recommend">
             How do you rate our work?
-            <input type="range" id="recommend"
-            name="recommend">
+            <input type="range"
+              id="recommend"
+              name="recommend">
           </label>
         </div>
       </fieldset>
@@ -130,7 +149,8 @@
         <div class="form_field">
           <label for="Comments">
              Comments
-            <textarea name="comments"
+            <textarea
+              name="comments"
               id="Comments"
               >
             </textarea>
@@ -139,7 +159,9 @@
         <div class="form_field last">
           <label for="enjoy">
             Would you recommend us?
-            <select name="recommend_us" id="enjoy">
+            <select
+              name="recommend_us"
+              id="enjoy">
               <option value="Yes">Yes</option>
               <option value="No">No</option>
             </select>
